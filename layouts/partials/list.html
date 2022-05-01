@@ -1,5 +1,5 @@
-{{ define "main" }}
-{{range .Site.RegularPages}}
+
+	{{ range .Paginator.Pages }}
 		<article class="post">
 			<h1><a href="{{ .Permalink }}">{{ .Title }}</a> {{ if .Draft }}(Draft){{ end }}</h1>
 
@@ -11,4 +11,4 @@
 		</article>
 	{{ end }}
 
-{{ end }}
+	{{ partial "pagination.html" . }}
