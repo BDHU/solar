@@ -35,8 +35,9 @@
 					{{ if .Site.Copyright }}
 						{{ .Site.Copyright }}
 					{{ else }}
-						Powered by <a href="https://gohugo.io/">Hugo</a> and the
-						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme.
+						<!-- Powered by <a href="https://gohugo.io/">Hugo</a> and the
+						<a href="https://github.com/bake/solar-theme-hugo">Solar</a>-theme. -->
+						<p>© {{ dateFormat "2006" now }} <a href="https://www.bodunhu.com">Bodun Hu</a>. All rights reserved.</p>
 					{{ end }}
 				</p>
 			</footer>
