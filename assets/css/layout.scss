@@ -322,7 +322,8 @@ h3 {
 #sidebar {
 	position: absolute;
 	text-align: right;
-	width: 160px;
+	// width: 160px;
+	width: 165px;
 	top: 0;
 	left: -240px;
 }
@@ -340,7 +341,8 @@ h3 {
 }
 
 #sidebar a span {
-	padding: 2px 0;
+	// padding: 2px 4px;
+	padding: 2px 0px;
 }
 
 #sidebar .bio {

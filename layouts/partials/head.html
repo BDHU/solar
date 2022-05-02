@@ -1,10 +1,5 @@
 {{ printf `<link rel="shortcut icon" href="%s">` ("favicon.ico" | absURL) | safeHTML }}
 
-<!-- {{ $resources := slice -}}
-{{ if .Site.Params.highlight -}}
-{{ $resources = $resources | append (resources.Get "css/syntax.css") -}}
-{{ end -}} -->
-
 {{ partial "mathjax.html" . }}
 
 {{ template "_internal/google_analytics.html" . }}
